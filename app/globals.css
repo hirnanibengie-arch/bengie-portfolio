@@ -1,0 +1,9 @@
+@tailwind base;@tailwind components;@tailwind utilities;
+html{scroll-behavior:smooth;scroll-padding-top:80px}
+body{@apply bg-slate-50 text-navy dark:bg-navy-deep dark:text-slate-100 font-sans antialiased transition-colors}
+:focus-visible{outline:3px solid #b8892b;outline-offset:3px}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{animation:none!important;transition:none!important}}
+@layer components{.btn{@apply inline-block rounded-lg px-5 py-3 font-semibold transition hover:-translate-y-0.5}
+.btn-gold{@apply bg-gold text-navy-deep}.btn-line{@apply border border-slate-300 dark:border-slate-600}
+.card{@apply rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-navy-card p-6 transition hover:border-gold}
+.ph{@apply inline-block mb-2 rounded-full border border-dashed border-gold px-2 py-0.5 text-xs text-gold}}
