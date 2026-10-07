@@ -40,3 +40,4 @@ It opens the visitor's email app (no server needed). For a real inbox form, crea
 
 ## SEO and next steps
 Submit the site to Google Search Console, add `public/og.png` (1200x630), put the link on LinkedIn (Contact info and Featured), resume header and email signature. Later: real project PDFs, a short certificate gallery, Vercel Analytics.
+"# bengie-portfolio2" 
